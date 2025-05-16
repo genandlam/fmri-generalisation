@@ -20,17 +20,18 @@ The workflow includes data preprocessing, feature alignment, model training, and
    cd fmri-generalisation
 
 2. Install the required Python packages
-     ``bash
-     pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-3. Ensure you have the necessary data files and feature embeddings from : 
+3. Ensure you have the necessary data files and feature embeddings from:
 [Algonauts challenge 2025](https://algonautsproject.com/)
+
 
 ## Usage
 1. Open the generalisation.ipynb notebook in 
 Jupyter Notebook or JupyterLab:
-``bash
-jupyter notebook generalisation.ipynb
+   ```bash
+   jupyter notebook generalisation.ipynb
 
 2. Follow the steps in the notebook to:
 
@@ -42,10 +43,10 @@ jupyter notebook generalisation.ipynb
 3. Run the final cell to visualize the encoding accuracy on a 3D brain atlas.
 
 ## Project Structure 
- ``bash
+ ```bash
 fmri-generalisation/
 ├── data/
 │   └── algonauts_2025.competitors/  # Directory containing stimulus features and fMRI data
-├── [generalisation.ipynb](http://_vscodecontentref_/1)             # Main notebook for the project
+├── [generalisation.ipynb](https://github.com/genandlam/fmri-generalisation/blob/main/generalisation.ipynb)           # Main notebook for the project
 ├── requirements.txt                 # Python dependencies
-└── [README.md](http://_vscodecontentref_/2)                        # Project documentation
+└── README.md                       # Project documentation
