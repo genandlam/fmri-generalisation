@@ -1,8 +1,9 @@
 
 # fMRI Generalisation
-The goal of this project is to understand if the number of participate affects Generalization of the model's. The dataset comes from the [CNeuroMod](https://www.cneuromod.ca/) dataset, and consists of multimodal movie stimuli and corresponding whole-brain time series fMRI responses of four subjects. A subset of CNeuroMod's data which includes almost 80 hours of multimodal movie stimuli and corresponding fMRI responses. The stimuli consist of movie visual frames, audio samples, and time-stamped language transcripts. The neural data consist of whole-brain fMRI responses for four CNeuroMod subjects (sub-01, sub-02, sub-03 and sub-05), normalized to the Montreal Neurological Institute (MNI) spatial template ([Brett et al., 2002](https://doi.org/10.1038/nrn756)), and processed as time series whose signal is assigned to 1,000 functionally defined brain parcels ([Schaefer et al., 2018](https://doi.org/10.1093/cercor/bhx179)).
+The goal of this project is to understand if the number of participate affects generalization of the model. The dataset comes from the [CNeuroMod](https://www.cneuromod.ca/) dataset, and consists of multimodal movie stimuli and corresponding whole-brain time series fMRI responses of four subjects. A subset of CNeuroMod's data which includes almost 80 hours of multimodal movie stimuli and corresponding fMRI responses. The stimuli consist of movie visual frames, audio samples, and time-stamped language transcripts. The neural data consist of whole-brain fMRI responses for four CNeuroMod subjects (sub-01, sub-02, sub-03 and sub-05), normalized to the Montreal Neurological Institute (MNI) spatial template ([Brett et al., 2002](https://doi.org/10.1038/nrn756), and processed as time series whose signal is assigned to 1,000 functionally defined brain parcels ([Schaefer et al., 2018](https://doi.org/10.1093/cercor/bhx179).
 For this experiement sub-05 was removed from the training and is treated as the test set. 
 The workflow includes data preprocessing, feature alignment, model training, and validation.
+For details of the of the model : [Substack]([https://genandlam.substack.com/publish/post/163389888?back=%2Fpublish%2Fhome](https://genandlam.substack.com/p/the-central-limit-theorem-and-neuroimaging))
 
 ## Table of Contents
 
@@ -46,7 +47,7 @@ Jupyter Notebook or JupyterLab:
  ```bash
 fmri-generalisation/
 ├── data/
-│   └── algonauts_2025.competitors/  # Directory containing stimulus features and fMRI data
+│   └── algonauts_2025.competitors  # Directory containing stimulus features and fMRI data
 ├── [generalisation.ipynb](https://github.com/genandlam/fmri-generalisation/blob/main/generalisation.ipynb)           # Main notebook for the project
 ├── requirements.txt                 # Python dependencies
 └── README.md                       # Project documentation
